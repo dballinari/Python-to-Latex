@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38d37fed-0658-4441-a491-e4ccdf7792ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Latex export.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Latex export.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_to_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_to_latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.tex" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -70,7 +75,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611421478628</updated>
-      <workItem from="1611421479958" duration="2046000" />
+      <workItem from="1611421479958" duration="3405000" />
+      <workItem from="1611501945482" duration="2137000" />
     </task>
     <servers />
   </component>
@@ -78,24 +84,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1611422781749">
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611503778687">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.bottom/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611422781749" />
-    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1611422781749">
+    <state x="721" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611503778687" />
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom" timestamp="1611504096489">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.center/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611422781749" />
-    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1611422781749">
+    <state width="1814" height="295" key="GridCell.Tab.0.bottom/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096489" />
+    <state width="1814" height="295" key="GridCell.Tab.0.center" timestamp="1611504096489">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.left/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611422781749" />
-    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1611422781749">
+    <state width="1814" height="295" key="GridCell.Tab.0.center/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096489" />
+    <state width="1814" height="295" key="GridCell.Tab.0.left" timestamp="1611504096489">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state width="1814" height="295" key="GridCell.Tab.0.right/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611422781749" />
+    <state width="1814" height="295" key="GridCell.Tab.0.left/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096489" />
+    <state width="1814" height="295" key="GridCell.Tab.0.right" timestamp="1611504096489">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="295" key="GridCell.Tab.0.right/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096489" />
+    <state width="1814" height="364" key="GridCell.Tab.1.bottom" timestamp="1611504096486">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.bottom/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096486" />
+    <state width="1814" height="364" key="GridCell.Tab.1.center" timestamp="1611504096486">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.center/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096486" />
+    <state width="1814" height="364" key="GridCell.Tab.1.left" timestamp="1611504096486">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.left/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096486" />
+    <state width="1814" height="364" key="GridCell.Tab.1.right" timestamp="1611504096486">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state width="1814" height="364" key="GridCell.Tab.1.right/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611504096486" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1611503491913">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="492" y="182" key="SettingsEditor/-2510.159.1998.1152/63.0.1857.1080@63.0.1857.1080" timestamp="1611503491913" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Latex_export$example.coverage" NAME="example Coverage Results" MODIFIED="1611422697490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Latex_export$example.coverage" NAME="example Coverage Results" MODIFIED="1611502835448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
